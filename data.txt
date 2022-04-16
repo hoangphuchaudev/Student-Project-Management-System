@@ -1,0 +1,72 @@
+-DetaiController
+//insert
+dangkydetai($MaDT,$MaSV)
+dexuatdetai
+//getdata
+getallLVNC()
+getallGV()
+getallDetai($MaDA)
+//view 
+dangkydetai_()
+getAlldata()
+//func
+checksoluongSV()
+checkDKDT()
+checkDKDA()
+getMaHocKy_now()
+
+-KehoachthuchienController
+//insert
+Insert_Sp(Request $request)
+//update
+Update_Sp($MaDT,$MaKHTH,Request $request)
+//getdata
+getMaKHTH_tuan($NgayBD)
+getSanPham_MaKHTH($MaKHTH)
+getMoTa_MaKHTH($MaKHTH)
+getNoidung_tuan($NgayBD,$MaDT)
+getModal_Co_SanPham1($Tuan, $MaKHTH, $TenDA, $TenDT, $a, $Noidungthuchien, $MotaSPi, $Sanphami)
+getModal_Co_SanPham2($Tuan, $MaKHTH, $TenDA, $TenDT, $a, $Noidungthuchien, $MotaSPi, $Sanphami)
+getModal_Ko_SanPham1($Tuan, $MaKHTH, $TenDA, $TenDT, $a, $Noidungthuchien)
+getModal_Ko_SanPham2($Tuan, $MaKHTH, $TenDA, $TenDT, $a, $Noidungthuchien)
+//view 
+kehoachthuchien()
+
+-LichbaocaoController
+//insert
+
+//update
+
+//getdata
+getkehoach($MaDT)
+show()
+//view 
+index()
+//func
+check_day_LBC($NgayBC,$dayBDHK)
+check_day_in_week($dayBDHK,$dayz)
+
+-SinhVienController
+//insert
+
+//update
+
+//getdata
+getMaSV()
+getMaDT($MaSV)
+getMaDA($MaDT)
+getMaDA_($MaSV)
+//view 
+index()
+tailieuthamkhao()
+//func
+php 7.+
+
+
+
+
+
+
+
+
+

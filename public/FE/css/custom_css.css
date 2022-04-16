@@ -1,0 +1,365 @@
+:root {
+  --primary: #0073A5;
+}
+body h1,h2,h3,h4,h5,h6,p{
+font-family: 'Lora', serif;
+}
+/*page login*/
+.andro_btn-custom.primary{
+  background-color: var(--primary);
+  width: max-width;
+}
+.facebook {
+ background-color:  var(--primary) !important;
+  color: #fff;
+}
+
+.google {
+  background-color: #00A65A !important;
+  color: #fff;
+}
+.pass_fog{
+  padding-top:2px;
+}
+.andro_social-login-btn a{
+  text-decoration: none;
+} 
+.root{
+  font-family: ;
+}
+.andro_auth-description-inner h3
+{
+    color: white;
+    font-size:  18px;
+}
+.custom-checkbox
+{
+margin-right: 50%;
+
+}
+body{
+/*  background-color: var(--primary);*/
+}
+section{
+  margin-top: -20px;
+  background-color: var(--primary);
+}
+
+/*header*/
+.aside-toggler{
+  background-color: white;
+}
+
+.navbar-brand img{
+  width: 70px;
+  height: 70px;
+}
+.andro_header-top{
+  background-color:  var(--primary);
+}
+.andro_header-top-inner h4{
+  color: white;
+}
+.andro_header-bottom{
+  background-color: #0073A5;
+}
+.andro_header-middle{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/heading-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    position: relative;
+}
+
+}
+
+/*datatable*/
+.page-link a{
+color:  white;
+}
+
+/*descrip*/
+.services-section {
+  margin-top: 140px;
+}
+.services-section .section-heading h2 {
+  color: #1e1e1e;
+}
+.services-section .service-item {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 50px 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.services-page .service-item {
+  margin-bottom: 30px;
+}
+.services-section .service-item i {
+  color: #fff;
+  background-color: #00bcd4;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 32px;
+}
+.services-section .service-item h4 {
+  margin-top: 35px;
+  font-size: 19px;
+  color: #1e1e1e;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.services-section {
+  margin-top: 140px;
+}
+.services-section .section-heading h2 {
+  color: #1e1e1e;
+}
+.services-section .service-item {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 50px 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.services-page .service-item {
+  margin-bottom: 30px;
+}
+.services-section .service-item i {
+  color: #fff;
+  background-color: #00bcd4;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 32px;
+}
+.services-section .service-item h4 {
+  margin-top: 35px;
+  font-size: 19px;
+  color: #1e1e1e;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.pricing-section {
+  margin-top: 140px;
+}
+.background-image-pricing {
+  background-image: url(../images/pricing-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  position: absolute;
+  width: 100%;
+}
+.pricing-section .section-heading {
+  text-align: center;
+  margin-top: 80px;
+}
+.pricing-section .section-heading h2,
+.pricing-section .section-heading p {
+  color: #fff;
+}
+.pricing-item {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 50px 30px 50px;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.pricing-item h4 {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  margin-bottom: 45px;
+}
+.pricing-item .price-gradient {
+  background: rgb(114,2,187);
+    background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+}
+.pricing-item .price {
+  background-color: #00bcd4;
+  width: 100%;
+  padding: 30px 0px;
+  margin-bottom: 35px;
+}
+.pricing-item .price h6 {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.pricing-item .price span {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+.pricing-item .dev {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  margin: 35px 0px 30px 0px;
+}
+.pricing-item ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+.pricing-item ul li {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #6a6a6a;
+}
+.pricing-item ul li i {
+  font-size: 14px;
+  margin-right: 8px;
+  color: #491bb1;
+}
+.pricing-item ul li:last-child {
+  margin-bottom: 40px;
+}
+.pricing-item a.main-button,
+.pricing-item a.gradient-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+}
+@media (max-width: 767px) {
+  .pricing-item  {
+    margin-bottom: 55px;
+  }
+  .footer-item {
+    margin-bottom: 60px;
+  }
+  footer .sub-footer {
+    margin-top: 20px;
+  }
+}
+.background-image-pricing {
+  background-image: url(../img/pricing-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  position: absolute;
+  width: 100%;
+}
+a.main-button {
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 25px;
+  border: none;
+  margin-left: 10px;
+  background-color: #00bcd4;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.5s;
+}
+a.main-button:hover {
+  background-color: #00a4b9;
+}
+a.gradient-button {
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 25px;
+  border: none;
+  margin-left: 10px;
+  background: rgb(114,2,187);
+    background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all 0.5s;
+}
+a.gradient-button:hover {
+  background: rgb(114,2,187);
+    background: linear-gradient(145deg, rgba(50,100,245,1) 0%, rgba(114,2,187,1) 100%);
+}
+
+/*breadcrumb*/
+.pattern-bg{
+  background-image: url(../img/footer-bg.jpg);
+}
+
+/*  loadding custom*/
+
+/* CSS for animated bouncing loader. */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Loader circles */
+.loader > span {
+  background: var(--primary);
+  border-radius: 50%;
+  margin: 5rem 0.5rem;
+  animation: bouncingLoader 0.6s infinite alternate;
+}
+
+.loader > span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loader > span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* Define the animation called bouncingLoader. */
+@keyframes bouncingLoader {
+  from {
+    width: 0.1rem;
+    height: 0.1rem;
+    opacity: 1;
+    transform: translate3d(0);
+  }
+  to {
+    width: 1rem;
+    height: 1rem;
+    opacity: 0.1;
+    transform: translate3d(0, -1rem, 0);
+  }
+}
+
+/* OPTIONAL: Styles for the demo. */
+/*body {
+  background: #2C294F;
+  padding: 2rem;
+}
+
+p {
+  font: 1rem/1.45 "Operator Mono";
+  color: #A599E9;
+  text-align: center;
+}*/
